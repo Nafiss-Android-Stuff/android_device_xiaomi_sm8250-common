@@ -117,7 +117,7 @@
                 android:resource="@drawable/ic_thermal_settings" />
             <meta-data
                 android:name="com.android.settings.order"
-                android:value="1" />
+                android:value="99" />
         </activity>
 
         <service
