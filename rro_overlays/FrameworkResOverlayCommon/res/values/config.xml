@@ -439,4 +439,7 @@
         <item>255</item>   <!-- at 5000 lux = 100% -->
     </integer-array>
 
+
+    <!-- Feature flag to store TaskSnapshot in 16 bit pixel format to save memory. -->
+    <bool name="config_use16BitTaskSnapshotPixelFormat">true</bool>
 </resources>
