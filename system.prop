@@ -20,6 +20,9 @@ debug.graphics.game_default_frame_rate.disabled=true
 # DPM
 persist.vendor.dpm.feature=1
 
+# Fake encryption
+ro.crypto.state=encrypted
+
 # Fwk detect
 ro.vendor.qti.va_aosp.support=1
 
