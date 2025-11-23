@@ -16,6 +16,23 @@
       "message": "tested on 23.0",
       "revId": "24eb4d9c35c3bb438a70fac27b1256c1e1dd7679",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9da32ee7_8aea212f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-11-23T16:54:11Z",
+      "side": 1,
+      "message": "Was this ported to 22.2?",
+      "revId": "24eb4d9c35c3bb438a70fac27b1256c1e1dd7679",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
