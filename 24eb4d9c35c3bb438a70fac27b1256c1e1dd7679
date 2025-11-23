@@ -33,6 +33,24 @@
       "message": "Was this ported to 22.2?",
       "revId": "24eb4d9c35c3bb438a70fac27b1256c1e1dd7679",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f7b6e7bd_0cd5e94b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-11-23T17:46:36Z",
+      "side": 1,
+      "message": "No. For 23.0. we don\u0027t have 23.0 branch yet",
+      "parentUuid": "9da32ee7_8aea212f",
+      "revId": "24eb4d9c35c3bb438a70fac27b1256c1e1dd7679",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
