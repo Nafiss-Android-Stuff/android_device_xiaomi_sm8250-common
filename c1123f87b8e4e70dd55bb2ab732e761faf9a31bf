@@ -36,6 +36,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9466a851_b0764e53",
+        "filename": "kona.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 196,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-11-30T17:22:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8283303f_fbf4a55d",
+      "revId": "c1123f87b8e4e70dd55bb2ab732e761faf9a31bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8de01f57_72e694c7",
@@ -67,6 +85,24 @@
       "side": 1,
       "message": "This is a string, not a boolean",
       "parentUuid": "8de01f57_72e694c7",
+      "revId": "c1123f87b8e4e70dd55bb2ab732e761faf9a31bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "54aa4480_84f98282",
+        "filename": "kona.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 223,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-11-30T17:22:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "35adfbf6_00f873d1",
       "revId": "c1123f87b8e4e70dd55bb2ab732e761faf9a31bf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
