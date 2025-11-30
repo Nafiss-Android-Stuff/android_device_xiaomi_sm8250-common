@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "84529e0b_a5c85a68",
+        "filename": "kona.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 196,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-11-30T14:25:54Z",
+      "side": 1,
+      "message": "Maybe in future? Apollon does not use it",
+      "revId": "c1123f87b8e4e70dd55bb2ab732e761faf9a31bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8de01f57_72e694c7",
+        "filename": "kona.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 223,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-11-30T14:25:54Z",
+      "side": 1,
+      "message": "Maybe in future?",
+      "revId": "c1123f87b8e4e70dd55bb2ab732e761faf9a31bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
