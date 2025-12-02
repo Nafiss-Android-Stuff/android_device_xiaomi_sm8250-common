@@ -16,6 +16,24 @@
       "message": "What does this do?",
       "revId": "8a463930d0c235f1d4241b17fbe3fe016aa79b35",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d2f4eddb_02ec826c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-12-02T05:14:35Z",
+      "side": 1,
+      "message": "It prevents small gallery previews of photos and videos from appearing black. We may not actually need it, but having it disabled is harmless.",
+      "parentUuid": "1211f47f_af1d34c3",
+      "revId": "8a463930d0c235f1d4241b17fbe3fe016aa79b35",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
