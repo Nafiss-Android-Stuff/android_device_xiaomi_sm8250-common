@@ -16,6 +16,24 @@
       "message": "I\u0027ve already tested it on the Xiaomi Pad 6. If you previously adjusted swappiness to 60 for power consumption or other reasons, you can later change it to adjust the swappiness based on the target device\u0027s physical memory size. However, I still think it\u0027s better to keep it at the default value set for CAF.",
       "revId": "944005ee216b17f365bb1ba190f2afe429bd7892",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0837c3a0_4ea070f3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-12-06T19:04:54Z",
+      "side": 1,
+      "message": "I do use overly bloated apps too. My device is Mi 10 (umi) with 8 GB RAM. I was feeling the device being too much sluggish to be usable sometimes when I use these apps hence I made the following chain. It was probably the another commit making the most of affect for me, though. I believe in your professionalism anyways\n\nhttps://review.lineageos.org/c/LineageOS/android_device_xiaomi_sm8250-common/+/404800",
+      "parentUuid": "07a15567_858bcdeb",
+      "revId": "944005ee216b17f365bb1ba190f2afe429bd7892",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
