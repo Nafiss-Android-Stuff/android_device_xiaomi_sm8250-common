@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "07a15567_858bcdeb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29551
+      },
+      "writtenOn": "2025-12-06T15:21:28Z",
+      "side": 1,
+      "message": "I\u0027ve already tested it on the Xiaomi Pad 6. If you previously adjusted swappiness to 60 for power consumption or other reasons, you can later change it to adjust the swappiness based on the target device\u0027s physical memory size. However, I still think it\u0027s better to keep it at the default value set for CAF.",
+      "revId": "944005ee216b17f365bb1ba190f2afe429bd7892",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
