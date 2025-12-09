@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6eab02b3_2375bfdf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3917
+      },
+      "writtenOn": "2025-12-09T20:57:10Z",
+      "side": 1,
+      "message": "This doesn\u0027t seem to be a correct fix since ssr_setup doesn\u0027t work like this:\n\n12-09 21:55:42.991  4658  4658 I ssr_setup: Using persist.vendor.ssr.restart_level for ssr_setup\n12-09 21:55:42.994  4658  4658 E ssr_setup: No subsys found with name RELATED\n\nWhat is most likely the real problem is that the \"on property\" in init.qcom.rc doesn\u0027t seem to get triggered (maybe because vendor.props is loaded too early?)",
+      "revId": "d92063e95d6a0d1f766379235b080e2f4494ed77",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
