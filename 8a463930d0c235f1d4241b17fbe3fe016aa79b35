@@ -34,6 +34,23 @@
       "parentUuid": "1211f47f_af1d34c3",
       "revId": "8a463930d0c235f1d4241b17fbe3fe016aa79b35",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "99c725a3_f0382428",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3917
+      },
+      "writtenOn": "2026-01-12T12:52:27Z",
+      "side": 1,
+      "message": "There is no broken use-case right now. So skip that until someone can show logcat proof and/or testcase.",
+      "revId": "8a463930d0c235f1d4241b17fbe3fe016aa79b35",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
