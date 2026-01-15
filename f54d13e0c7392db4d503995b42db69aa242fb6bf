@@ -16,6 +16,23 @@
       "message": "I have a better solution for it on sdm845 tree.",
       "revId": "f54d13e0c7392db4d503995b42db69aa242fb6bf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b5f055ec_195e35df",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-01-15T21:46:41Z",
+      "side": 1,
+      "message": "Yes.",
+      "revId": "f54d13e0c7392db4d503995b42db69aa242fb6bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
