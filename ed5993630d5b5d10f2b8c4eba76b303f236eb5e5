@@ -16,6 +16,46 @@
       "message": "This should go to 23.1+",
       "revId": "ed5993630d5b5d10f2b8c4eba76b303f236eb5e5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8cdb1c0e_0661de57",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2026-01-21T20:46:01Z",
+      "side": 1,
+      "message": "Is this commit still needed or was the fwb commit that handled this merged?",
+      "revId": "ed5993630d5b5d10f2b8c4eba76b303f236eb5e5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e990962f_10b68d67",
+        "filename": "parts/src/org/lineageos/settings/thermal/ThermalSettingsFragment.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2026-01-21T20:46:01Z",
+      "side": 1,
+      "message": "Stray spaces",
+      "range": {
+        "startLine": 155,
+        "startChar": 0,
+        "endLine": 155,
+        "endChar": 4
+      },
+      "revId": "ed5993630d5b5d10f2b8c4eba76b303f236eb5e5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
