@@ -38,6 +38,7 @@ public class BootCompletedReceiver extends BroadcastReceiver {
     private static final String TAG = "XiaomiParts";
     private static final String DC_DIMMING_ENABLE_KEY = "dc_dimming_enable";
     private static final String DC_DIMMING_NODE = "/sys/devices/platform/soc/soc:qcom,dsi-display-primary/dimlayer_exposure";
+    private static final String DC_DIMMING_NODE_PERF = "/sys/devices/platform/soc/soc:qcom,dsi-display-primary/msm_fb_ea_enable";
 
     @Override
     public void onReceive(final Context context, Intent intent) {
@@ -55,6 +56,11 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         FileUtils.enableService(context);
 
         boolean dcDimmingEnabled = sharedPrefs.getBoolean(DC_DIMMING_ENABLE_KEY, false);
-        FileUtils.writeLine(DC_DIMMING_NODE, dcDimmingEnabled ? "1" : "0");
+        String value = dcDimmingEnabled ? "1" : "0";
+        if (FileUtils.fileExists(DC_DIMMING_NODE)) {
+            FileUtils.writeLine(DC_DIMMING_NODE, value);
+        } else if (FileUtils.fileExists(DC_DIMMING_NODE_PERF)) {
+            FileUtils.writeLine(DC_DIMMING_NODE_PERF, value);
+        }
     }
 }

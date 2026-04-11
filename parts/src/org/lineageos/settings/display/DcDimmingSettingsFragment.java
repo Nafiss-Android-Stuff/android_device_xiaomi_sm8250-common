@@ -42,6 +42,7 @@ public class DcDimmingSettingsFragment extends PreferenceFragment implements
     private SwitchPreference mDcDimmingPreference;
     private static final String DC_DIMMING_ENABLE_KEY = "dc_dimming_enable";
     private static final String DC_DIMMING_NODE = "/sys/devices/platform/soc/soc:qcom,dsi-display-primary/dimlayer_exposure";
+    private static final String DC_DIMMING_NODE_PERF = "/sys/devices/platform/soc/soc:qcom,dsi-display-primary/msm_fb_ea_enable";
     private static final String HBM = "/sys/class/drm/card0/card0-DSI-1/disp_param";
     private static final String HBM_KEY = "hbm";
 
@@ -51,7 +52,7 @@ public class DcDimmingSettingsFragment extends PreferenceFragment implements
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         setPreferencesFromResource(R.xml.dcdimming_settings, rootKey);
         mDcDimmingPreference = findPreference(DC_DIMMING_ENABLE_KEY);
-        if (FileUtils.fileExists(DC_DIMMING_NODE)) {
+        if (FileUtils.fileExists(DC_DIMMING_NODE_PERF) || FileUtils.fileExists(DC_DIMMING_NODE)) {
             mDcDimmingPreference.setEnabled(true);
             mDcDimmingPreference.setOnPreferenceChangeListener(this);
         } else {
@@ -65,7 +66,12 @@ public class DcDimmingSettingsFragment extends PreferenceFragment implements
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (DC_DIMMING_ENABLE_KEY.equals(preference.getKey())) {
             boolean enabled = (boolean) newValue;
-            FileUtils.writeLine(DC_DIMMING_NODE, enabled ? "1" : "0");
+            String value = enabled ? "1" : "0";
+        if (FileUtils.fileExists(DC_DIMMING_NODE)) {
+            FileUtils.writeLine(DC_DIMMING_NODE, value);
+        } else if (FileUtils.fileExists(DC_DIMMING_NODE_PERF)) {
+            FileUtils.writeLine(DC_DIMMING_NODE_PERF, value);
+        }
             if (enabled) {
                 disableHBM();
             }
