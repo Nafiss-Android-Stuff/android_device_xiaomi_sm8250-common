@@ -16,6 +16,7 @@ We add `.lineage` and increase priority only when we overlay LineageOS additions
 - `com.android.settings`: `Settings`
 - `com.android.systemui`: `SystemUI`
 - `com.android.wifi.resources:WifiCustomization`: `WifiResources`
+- `com.google.android.euicc`: `EuiccGoogle`
 - `lineageos.platform`: `LineageSDK`
 - `org.lineageos.aperture`: `Aperture`
 

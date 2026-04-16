@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 The 2by2 Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="sim_slot_mappings_json">
+        {
+            \"sim-slot-mappings\": [
+                {
+                    \"devices\":[\"alioth\", \"apollon\", \"cas\", \"cmi\", \"dagu\", \"elish\", \"enuma\", \"lmi\", \"munch\", \"pipa\", \"psyche\", \"thyme\", \"umi\"],
+                    \"esim-slot-ids\": [0, 1],
+                }
+            ]
+        }
+    </string>
+</resources>
