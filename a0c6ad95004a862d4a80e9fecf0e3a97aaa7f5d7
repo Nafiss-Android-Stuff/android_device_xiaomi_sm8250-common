@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9110a45a_7837c1ee",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3917
+      },
+      "writtenOn": "2026-05-08T17:51:47Z",
+      "side": 1,
+      "message": "Builds and boots alioth (with kernel changes 482658 and 482659)",
+      "revId": "a0c6ad95004a862d4a80e9fecf0e3a97aaa7f5d7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
