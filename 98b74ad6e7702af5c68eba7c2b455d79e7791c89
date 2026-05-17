@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "93309d49_8f7ad28d",
+        "filename": "kona.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 373,
+      "author": {
+        "id": 34491
+      },
+      "writtenOn": "2026-05-17T08:52:40Z",
+      "side": 1,
+      "message": "Incorrect path",
+      "range": {
+        "startLine": 373,
+        "startChar": 18,
+        "endLine": 373,
+        "endChar": 25
+      },
+      "revId": "98b74ad6e7702af5c68eba7c2b455d79e7791c89",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
