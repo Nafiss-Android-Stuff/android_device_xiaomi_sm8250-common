@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b745dc91_531fd60f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24387
+      },
+      "writtenOn": "2026-05-17T09:18:51Z",
+      "side": 1,
+      "message": "I think this shall be guarded with TARGET_IS_TABLET as pipa do not support esim.",
+      "revId": "98b74ad6e7702af5c68eba7c2b455d79e7791c89",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "93309d49_8f7ad28d",
