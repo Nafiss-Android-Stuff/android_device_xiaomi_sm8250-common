@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2da26e86_7e932bf3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2026-05-17T13:43:35Z",
+      "side": 1,
+      "message": "does pipa have pSIM slots?\n\nnone of xiaomi sm8250 ever had eSIM support I guess, but I recently figured it out that inserting eUICC card on old devices could work",
+      "parentUuid": "b745dc91_531fd60f",
+      "revId": "98b74ad6e7702af5c68eba7c2b455d79e7791c89",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "93309d49_8f7ad28d",
         "filename": "kona.mk",
         "patchSetId": 2
