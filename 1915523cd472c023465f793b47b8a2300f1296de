@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2eeb4115_ee844811",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 37033
+      },
+      "writtenOn": "2026-05-19T16:15:25Z",
+      "side": 1,
+      "message": "I think this shall be guarded with \"ifeq ($(filter dagu elish pipa,$(TARGET_DEVICE)),)\" as pipa, dagu, elish.\nthese devices do not have pSIM (WiFi only), enuma have single pSIM slot, other xiaomi sm8250 devices have dual pSIM slots",
+      "revId": "1915523cd472c023465f793b47b8a2300f1296de",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
