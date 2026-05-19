@@ -36,6 +36,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0ea4b17d_23ba913c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24387
+      },
+      "writtenOn": "2026-05-19T15:58:55Z",
+      "side": 1,
+      "message": "Nope, it does not have pSIM as well (sorry for late reply).",
+      "parentUuid": "2da26e86_7e932bf3",
+      "revId": "98b74ad6e7702af5c68eba7c2b455d79e7791c89",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "93309d49_8f7ad28d",
