@@ -51,6 +51,24 @@
       "parentUuid": "31b1fa10_a84fb781",
       "revId": "da0b00849806b96f8cd4e8a9e7ffc6e60e0f08b3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ba2e98ca_455ac96c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2026-06-05T09:28:07Z",
+      "side": 1,
+      "message": "Yeah, I’m not sure if it’ll have any effect on devices that aren’t stereo I haven’t actually checked it myself, but I pushed it to the common anyway",
+      "parentUuid": "31b1fa10_a84fb781",
+      "revId": "da0b00849806b96f8cd4e8a9e7ffc6e60e0f08b3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
