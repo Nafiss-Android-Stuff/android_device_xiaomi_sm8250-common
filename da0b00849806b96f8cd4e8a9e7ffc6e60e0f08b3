@@ -16,6 +16,23 @@
       "message": "Hello, I am not sure the audio hal read this property. Doing a grep I get:\n\nstrings pipa/proprietary/vendor/lib/hw/audio.primary.pipa.so | grep persist.vendor.audio\n\npersist.vendor.audio.fluence.voicerec\npersist.vendor.audio.FFSP.enable\npersist.vendor.audio.ears.compensation.eq.left\npersist.vendor.audio.sfx.hd.type\npersist.vendor.audio.fluence.mode\npersist.vendor.audio.in_mmap_delay_micros\npersist.vendor.audio.fluence.hfpcall\npersist.vendor.audio.speaker.prot.enable\npersist.vendor.audio.ambisonic.capture\npersist.vendor.audio.ull_playback_bargein\npersist.vendor.audio.out_mmap_delay_micros\npersist.vendor.audio.spatial.enable\npersist.vendor.audio.ll_playback_bargein\npersist.vendor.audio.ears.compensation.eq.right\npersist.vendor.audio.ha_proxy.enabled\npersist.vendor.audio.va_concurrency_mute_enabled\npersist.vendor.audio.aanc.enable\npersist.vendor.audio.ras.enabled\npersist.vendor.audio.hifi.int_codec\npersist.vendor.audio.hifi\npersist.vendor.audio.vbat.enabled\npersist.vendor.audio.fluence.speaker\npersist.vendor.audio.scenario.switch\npersist.vendor.audio.fluence.voicecomm\npersist.vendor.audio.dualmic.config\npersist.vendor.audio.fluence.voicecall\npersist.vendor.audio.ambisonic.auto.profile\npersist.vendor.audio.scenario\npersist.vendor.audio.ring.filter.mask\npersist.vendor.audio.fluence.audiorec\npersist.vendor.audio.apptype.multirec.enabled\npersist.vendor.audio.bcl.enabled\npersist.vendor.audio_hal.dsp_bit_width_enforce_mode\npersist.vendor.audio.delta.refresh\npersist.vendor.audio.ears.compensation.example\npersist.vendor.audio.sfx.hd.music.state\npersist.vendor.audio.voicecall.speaker.stereo\npersist.vendor.audio.ears.compensation.state\npersist.vendor.audio.headset.anc.type\npersist.vendor.audio.fluence.tmic.enabled\n\n\nor maybe is read elsewhere ?",
       "revId": "da0b00849806b96f8cd4e8a9e7ffc6e60e0f08b3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "31b1fa10_a84fb781",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34491
+      },
+      "writtenOn": "2026-06-05T08:52:31Z",
+      "side": 1,
+      "message": "as far as I know, mikona also has single speaker models, such as lmi",
+      "revId": "da0b00849806b96f8cd4e8a9e7ffc6e60e0f08b3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
