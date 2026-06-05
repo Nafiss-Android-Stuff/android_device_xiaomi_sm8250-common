@@ -33,6 +33,24 @@
       "message": "as far as I know, mikona also has single speaker models, such as lmi",
       "revId": "da0b00849806b96f8cd4e8a9e7ffc6e60e0f08b3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d8989524_e4ca4f99",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24387
+      },
+      "writtenOn": "2026-06-05T09:26:55Z",
+      "side": 1,
+      "message": "Maybe we can try to check who reads this property and separate it per device.",
+      "parentUuid": "31b1fa10_a84fb781",
+      "revId": "da0b00849806b96f8cd4e8a9e7ffc6e60e0f08b3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
