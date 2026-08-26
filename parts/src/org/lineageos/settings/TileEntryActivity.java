@@ -28,7 +28,6 @@ import androidx.annotation.Nullable;
 
 import org.lineageos.settings.refreshrate.RefreshActivity;
 import org.lineageos.settings.thermal.ThermalActivity;
-import org.lineageos.settings.dirac.DiracActivity;
 import org.lineageos.settings.display.DcDimmingSettingsActivity;
 import org.lineageos.settings.hbm.HBMActivity;
 import org.lineageos.settings.touchsampling.TouchSamplingSettingsActivity;
@@ -37,7 +36,6 @@ public class TileEntryActivity extends Activity {
     private static final String TAG = "TileEntryActivity";
     private static final String REFRESH_TILE = "org.lineageos.settings.refreshrate.RefreshTileService";
     private static final String THERMAL_TILE = "org.lineageos.settings.thermal.ThermalTileService";
-    private static final String DIRAC_TILE = "org.lineageos.settings.dirac.DiracTileService";
     private static final String DCDIMMING_TILE = "org.lineageos.settings.display.DcDimmingTileService";
     private static final String HBM_TILE = "org.lineageos.settings.hbm.HBMModeTileService";
     private static final String HTSR_TILE = "org.lineageos.settings.touchsampling.TouchSamplingTileService";
@@ -59,8 +57,6 @@ public class TileEntryActivity extends Activity {
             intent = new Intent(this, RefreshActivity.class);
         } else if (THERMAL_TILE.equals(sourceClassName)) {
             intent = new Intent(this, ThermalActivity.class);
-        } else if (DIRAC_TILE.equals(sourceClassName)) {
-            intent = new Intent(this, DiracActivity.class);
         } else if (DCDIMMING_TILE.equals(sourceClassName)) {
             intent = new Intent(this, DcDimmingSettingsActivity.class);
         } else if (HBM_TILE.equals(sourceClassName)) {
