@@ -32,6 +32,8 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libcrypto_shim.so'),
     'vendor/lib64/mediadrm/libwvdrmengine.so': blob_fixup()
         .add_needed('libcrypto_shim.so'),
+    'vendor/etc/configstore/vpp.configstore.xml': blob_fixup()
+        .regex_replace(r'(<capability key="enable" value=)"false"/>', r'\g<1>"true"/>'),
 }  # fmt: skip
 
 
