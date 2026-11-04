@@ -40,15 +40,22 @@ public class ThermalTileService extends TileService {
     private String mTopApp;
 
     protected boolean isAppLaunchable(String packageName) {
-        PackageManager mPackageManager = getPackageManager();
+        if (packageName == null) return false;
 
-        Intent intent = new Intent(Intent.ACTION_MAIN);
-        intent.addCategory(Intent.CATEGORY_LAUNCHER);
-        intent.setPackage(packageName);
+        PackageManager pm = getPackageManager();
+        String[] categories = {Intent.CATEGORY_LAUNCHER, Intent.CATEGORY_HOME};
 
-        List<ResolveInfo> activities = mPackageManager.queryIntentActivities(intent, 0);
+        for (String category : categories) {
+            Intent intent = new Intent(Intent.ACTION_MAIN);
+            intent.addCategory(category);
+            intent.setPackage(packageName);
 
-        return activities != null && !activities.isEmpty();
+            List<ResolveInfo> activities = pm.queryIntentActivities(intent, 0);
+            if (activities != null && !activities.isEmpty()) {
+                return true;
+            }
+        }
+        return false;
     }
 
     private int getNewState(int state) {
@@ -114,18 +121,34 @@ public class ThermalTileService extends TileService {
     @Override
     public void onStartListening() {
         super.onStartListening();
+
+        mTopApp = null;
+        tile = getQsTile();
+        if (tile == null) return;
+
         try {
             IActivityTaskManager mActivityTaskManager = ActivityTaskManager.getService();
             final RootTaskInfo info = mActivityTaskManager.getFocusedRootTaskInfo();
-            if (info == null || info.topActivity == null) return;
-            mTopApp = info.topActivity.getPackageName();
+            if (info != null && info.topActivity != null) {
+                mTopApp = info.topActivity.getPackageName();
+            }
         } catch (RemoteException e) {
-            // Do nothing
+            // mTopApp stays null
         }
 
-        mThermalSettingsFragment = new ThermalSettingsFragment();
-        mThermalUtils = new ThermalUtils(this);
-        tile = getQsTile();
+        if (mTopApp == null) {
+            tile.setState(Tile.STATE_UNAVAILABLE);
+            tile.updateTile();
+            return;
+        }
+
+        if (mThermalSettingsFragment == null) {
+            mThermalSettingsFragment = new ThermalSettingsFragment();
+        }
+        if (mThermalUtils == null) {
+            mThermalUtils = new ThermalUtils(this);
+        }
+
         setTileView();
         tile.setState(isAppLaunchable(mTopApp)
             ? Tile.STATE_ACTIVE : Tile.STATE_UNAVAILABLE);
@@ -135,7 +158,7 @@ public class ThermalTileService extends TileService {
     @Override
     public void onClick() {
         super.onClick();
-        if (tile == null || mTopApp == null) return;
+        if (tile == null || mThermalUtils == null || mTopApp == null) return;
 
         mThermalUtils.writePackage(mTopApp,
             getNewState(mThermalUtils.getStateForPackage(mTopApp)));
